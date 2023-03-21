@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <div class="color-buttons">
+            <button class="color-button" style="background-color: red;"></button>
+            <button class="color-button" style="background-color: green;"></button>
+            <button class="color-button" style="background-color: blue;"></button>
+            <button class="color-button" style="background-color: yellow;"></button>
+            <button class="color-button" style="background-color: magenta;"></button>
+            <button class="color-button" style="background-color: cyan;"></button>
+            <button class="color-button" style="background-color: black;"></button>
+            <button class="color-button" style="background-color: violet;"></button>
+            <input type="color" id="color-picker" value="#000000">
+        </div>
+        <div>
+            <button id="line">Línea</button>
+            <button id="rectangle">Rectángulo</button>
+            <button id="circle">Círculo</button>
+            <button id="hexagon">Hexágono</button>
+            <input type="number" id="line-width" value="1" min="1" max="10">
+            <button id="clear">Borrar todo</button>
+        </div>
+    <script src="paint.js"></script>
+    <script src="handler.js"></script>
+    </body>
+</html>

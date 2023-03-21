@@ -1,0 +1,18 @@
+.color-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  
+.color-button {
+    width: 25px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+}
+  
+  
+#canvas {
+    border: 1px solid black;
+    cursor: crosshair;
+}
